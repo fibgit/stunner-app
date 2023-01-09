@@ -80,3 +80,16 @@ form h2{
     letter-spacing: .1rem;
     outline: none;
 }
+
+.inputs-wrapper input::placeholder{
+    color: #fff;
+    font-weight: 300;
+}
+
+.inputs-wrapper input[type='submit']{
+    background-color: #fff;
+    color: rgb(40,114,108);
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+}
